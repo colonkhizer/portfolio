@@ -1,0 +1,355 @@
+/*================================ 
+    #RESPONSIVE CSS 
+====================================*/
+
+/* Large Device: 1200px. */
+@media only screen and (min-width: 991px) and (max-width: 1200px){
+	
+	.hero-content {
+		padding-top: 10rem;
+	}
+	
+	.hero-content h2 {
+		font-size: 5rem;
+	}
+	
+	.hero-single {
+		height: auto;
+	}
+	
+	.home-2 .hero-content {
+		padding-top: 10rem;
+	}
+	
+	
+	
+}
+
+/* Tablet Layout: 768px.*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	
+	/*	Bs Mobile*/
+	
+	.bsnav-mobile .navbar-nav .nav-item .nav-link {
+		max-width: 100%;
+		padding: 5px 0;
+		display: inline-block;
+		padding-top: 2rem;
+	}
+	
+	/*	Grid */
+	
+	.grid-2 {
+		grid-template-columns: repeat(2,1fr);
+	}
+	
+	.grid-3 {
+		grid-template-columns: repeat(2,1fr);
+	}
+	
+	.grid-4 {
+		grid-template-columns: repeat(2,1fr);
+	}
+	
+	.grid-2-px {
+		grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+	}
+	
+	
+	/*	Hero*/
+	
+	.hero-content {
+		padding: 0;
+		padding-top: 10rem;
+	}
+	
+	.hero-single .hero-content h2 {
+		font-size: 5rem;
+		line-height: 1.1;
+	}
+	
+	.hero-content p {
+		font-size: 1.5rem;
+		line-height: 3rem;
+	}
+	
+	.hero-single {
+		height: auto;
+	}
+	
+	span.hero-p1.hero-sm {
+		color: #d91901;
+	}
+	
+	.home-2 .hero-content {
+		padding-top: 10rem;
+	}
+	
+	.right-bg {
+		margin-top: 3rem;
+	}
+	
+	/*	Service*/
+	
+	.service-right {
+		padding: 0rem;
+	}
+	
+	/*	Portfolio*/
+	
+	.portfolio-right {
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	
+	.fun-fact {
+		margin-right: 0;
+		padding-right: 0;
+		margin-bottom: 3rem;
+	}
+	
+	.fun-fact::before {
+		display: none;
+	}
+	
+	.fun-fact:last-child {
+		margin-bottom: 0;
+	}
+	
+	.portfolio-wrapper.grid-2 {
+		grid-template-columns: repeat(2,1fr);
+	}
+	
+	.portfolio-image.grid-2 {
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	
+	.portfolio-items .pf-item {
+		width: 50%;
+	}
+
+	.mix-item-menu button {
+		margin-right: 1rem;
+		margin-bottom: 1rem;
+	}
+	
+	/*	Time Line*/
+	
+	.timeline-wrapper.grid-2 {
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	/*	Contact*/
+	
+	.contact-left {
+		padding: 0;
+	}
+	
+	.contact-area .contact-left {
+		margin-bottom: 3rem;
+	}
+	
+	.wpn-icon-set a {
+		position: inherit;
+	}
+	
+	.contact-info {
+		display: none;
+	}
+	
+	/*	Footer*/
+	
+	.footer-left.grid-2 {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+	
+	
+	.site-title h2 {
+		font-size: 3rem;
+	}
+	
+	/*	Padding*/
+	
+	.de-padding{
+		padding: 5rem 0;
+	}
+
+	.de-pt {
+		padding-top: 5rem;
+	}
+
+	.pt-120 {
+		padding-top: 5rem;
+	}
+
+	.pt-105 {
+		padding-top: 5rem;
+	}
+
+	.pt-210 {
+		padding-top: 13rem;
+	}
+	
+	.de-pb {
+		padding-bottom: 5rem;
+	}
+
+	.pb-120 {
+		padding-bottom: 5rem;
+	}
+
+	.pb-105 {
+		padding-bottom: 5rem;
+	}
+	
+	.pb-80 {
+		padding-botto: 5rem;
+	}
+	
+	/*	Grid */
+	
+	.grid-2 {
+		grid-template-columns: 1fr;
+	}
+	
+	.grid-3 {
+		grid-template-columns: 1fr;
+	}
+	
+	.grid-4 {
+		grid-template-columns: 1fr;
+	}
+	
+	/*	Hero*/
+	.hero-section {
+		height: auto;
+	}
+	
+	.hero-single {
+		height: auto;
+	}
+	
+	.hero-content {
+		margin-top: 10rem;
+	}
+	
+	.hero-content h2 {
+		font-size: 3.6rem;
+	}
+	
+	.right-bg {
+		margin-top: 3rem;
+	}
+	
+	/*	Service*/
+	
+	.service-right {
+		padding: 0rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+	/* Counter	*/
+	
+	.counter-wrapper.grid-2 {
+		grid-gap: 3rem;
+	}
+	
+	/*	Portfolio*/
+	
+	.portfolio-right {
+		align-items: flex-start;
+		justify-content: flex-start;
+		flex-direction: column;
+	}
+	
+	.fun-fact {
+		margin-right: 0;
+		padding-right: 0;
+		margin-bottom: 3rem;
+	}
+	
+	.fun-fact:before {
+	   display: none;
+	}
+	
+	
+	
+	/*	Portfolio pic*/
+	
+	.portfolio-items .pf-item {
+		width: 100%;
+	}
+	
+	.mix-item-menu button {
+		margin-right: 0;
+		margin-bottom: 1rem;
+		padding: 5px 2rem;
+	}
+	
+	/*	Review Area*/
+	
+	.grid-2-px {
+		grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+	}
+	
+	/*	Contact*/
+	
+	.contact-left {
+		padding: 0;
+	}
+	
+	.contact-area .contact-left {
+		margin-bottom: 3rem;
+	}
+	
+	.wpn-icon-set a {
+		position: inherit;
+	}
+	
+	.contact-info {
+		display: none;
+	}
+	
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+}
+
+@media only screen and (max-width: 576px) {
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
